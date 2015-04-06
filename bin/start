@@ -1,0 +1,5 @@
+#!/bin/bash
+
+node services/pdf-text/index.js > /dev/null &
+pid=$!
+echo $pid > ~/.pdf-text.pid

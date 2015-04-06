@@ -1,0 +1,18 @@
+{
+  "name": "mediagate.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/start",
+    "stop": "./bin/stop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.4",
+    "async": "^0.9.0",
+    "pdf-text-extract": "^1.1.4"
+  }
+}

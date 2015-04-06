@@ -1,0 +1,5 @@
+node_modules
+public/bower_components
+!public/uploads/.gitinclude
+storage.sqlite3
+vendor/

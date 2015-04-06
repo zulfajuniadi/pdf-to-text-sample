@@ -1,0 +1,4 @@
+#!/bin/bash
+
+kill -9 $(cat ~/.pdf-text.pid)
+rm ~/.pdf-text.pid

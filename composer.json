@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "classmap": ["system/"]
+    },
+    "require": {
+        "slim/slim": "~2.6",
+        "videlalvaro/php-amqplib": "~2.5",
+        "lichtner/fluentpdo": "~1.0"
+    }
+}
