@@ -6,10 +6,10 @@ A sample pdf to text written for mediagate
 Required software
 -----------------
 
-[Composer](https://getcomposer.org/doc/00-intro.md)
-[NodeJS](https://nodejs.org)
-[RabbitMQ](http://www.rabbitmq.com)
-[pdftotext](http://en.wikipedia.org/wiki/Pdftotext)
+- [Composer](https://getcomposer.org/doc/00-intro.md)
+- [NodeJS](https://nodejs.org)
+- [RabbitMQ](http://www.rabbitmq.com)
+- [pdftotext](http://en.wikipedia.org/wiki/Pdftotext)
 
 Installation
 ------------
