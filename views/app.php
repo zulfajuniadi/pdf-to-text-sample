@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>MediaGate</title>
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
@@ -15,6 +15,7 @@
                     <div class="panel panel-primary">
                         <div class="panel-heading">
                             <?=$file['name']?>
+                            (<?=$file['size']?>)
                         </div>
                         <div class="panel-footer">
                             <a download target="_blank" href="<?=$file['path']?>">Download</a> |

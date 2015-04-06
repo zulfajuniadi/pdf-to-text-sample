@@ -4,7 +4,7 @@ class DB extends FluentPDO
 {
     public function __construct()
     {
-        $db_file = '../storage.sqlite3';
+        $db_file = 'storage.sqlite3';
         if(!file_exists($db_file))
             touch($db_file);
 
